@@ -66,7 +66,7 @@ ADMIN_PASSWORD = "" # придумайте надёжный пароль
 1. В директории бота выполните:
 
 ```bash
-docker build -t bot:latest .
+docker build -t bot:latest ./
 ```
 
 2. После сборки выполните запуск:
