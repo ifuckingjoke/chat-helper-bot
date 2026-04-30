@@ -5,7 +5,7 @@ WORKDIR /app
 RUN pip install poetry && \
     poetry config virtualenvs.in-project false
 
-COPY pyproject.toml poetry.lock .
+COPY pyproject.toml poetry.lock ./
 
 RUN poetry install --no-root
 
